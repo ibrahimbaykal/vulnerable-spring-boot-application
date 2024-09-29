@@ -19,6 +19,13 @@ public class ProviderSearchDAO {
         List<Object[]> results = query.getResultList();
         return results;
     }
+    public List<Object[]> getemail(String zipCode) {
+        EntityManager em = entityManagerFactory.createEntityManager();
+        String q = "select * from email where public_listing is true and zip_code = '" + zipCode + "'";
+        Query query = em.createNativeQuery(q);
+        List<Object[]> results = query.getResultList();
+        return results;
+    }
 }
 
 
