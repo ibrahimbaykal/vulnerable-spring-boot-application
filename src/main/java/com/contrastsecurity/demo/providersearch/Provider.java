@@ -3,5 +3,5 @@ package com.contrastsecurity.demo.providersearch;
 public class Provider {
 
     // Test secret scanning
-    private static final String API_TOKEN = "AnfdsaknfakexaskMDFKEWMAMXSLASQ45A45FDAED";
+    private static final String API_TOKEN = "AIzaSyD2BGWy5q1Hl_3ZQIsn9XfBX6_QisZHTMI";
 }
